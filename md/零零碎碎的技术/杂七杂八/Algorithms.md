@@ -1,0 +1,10 @@
+---
+title: Algorithms
+date: 2016-11-19 20:07:11
+tags:
+- Algorithm
+- Data Structure
+---
+* [Algorithm.docx](https://github.com/zhuzhigao/PersonalTechArticles/raw/master/Algorithms/Algorithm.docx)
+* [Data Structure.docx](https://github.com/zhuzhigao/PersonalTechArticles/raw/master/Algorithms/Data%20Structure.docx)
+<!-- more -->
