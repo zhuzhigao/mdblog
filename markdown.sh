@@ -1,6 +1,6 @@
 #!/bin/bash
 start () {
-   sudo nohup ./markdown-blog web --port 80  > out.log 2>err.log &
+   sudo nohup ./markdown-blog web --title "一个略懂石油的广告码农的日常" --port 80  > out.log 2>err.log &
    sleep 1
    echo "started"
 }
