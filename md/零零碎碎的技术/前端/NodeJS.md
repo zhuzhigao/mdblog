@@ -5,5 +5,5 @@ tags:
 - NodeJS
 - Web
 ---
-* [NodeJS.pdf](https://github.com/zhuzhigao/PersonalTechArticles/raw/master/Architecture/NodeJS.pdf)
+* [NodeJS.pdf](https://github.com/zhuzhigao/PersonalMaterials/raw/master/Architecture/NodeJS.pdf)
 <!-- more -->

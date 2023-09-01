@@ -6,5 +6,5 @@ tags:
 - NOSQL
 - Big Data
 ---
-* [MongoDB.pdf](https://github.com/zhuzhigao/PersonalTechArticles/raw/master/MongoDB/MongoDB.pdf)
+* [MongoDB.pdf](https://github.com/zhuzhigao/PersonalMaterials/raw/master/MongoDB/MongoDB.pdf)
 <!-- more -->

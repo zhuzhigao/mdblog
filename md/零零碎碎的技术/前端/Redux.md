@@ -5,5 +5,5 @@ tags:
 - Redux
 - Web
 ---
-* [Redux.pdf](https://github.com/zhuzhigao/PersonalTechArticles/raw/master/Redux/Redux.pdf)
+* [Redux.pdf](https://github.com/zhuzhigao/PersonalMaterials/raw/master/Redux/Redux.pdf)
 <!-- more -->

@@ -4,6 +4,6 @@ date: 2016-11-19 20:05:30
 tags:
 - XML
 ---
-* [XML Element vs Attribute.docx](https://github.com/zhuzhigao/PersonalTechArticles/raw/master/XML/XML%20Element%20vs%20Attribute.docx)
-* [XML Schema.docx](https://github.com/zhuzhigao/PersonalTechArticles/raw/master/XML/XML%20Schema.docx)
+* [XML Element vs Attribute.docx](https://github.com/zhuzhigao/PersonalMaterials/raw/master/XML/XML%20Element%20vs%20Attribute.docx)
+* [XML Schema.docx](https://github.com/zhuzhigao/PersonalMaterials/raw/master/XML/XML%20Schema.docx)
 <!-- more -->
