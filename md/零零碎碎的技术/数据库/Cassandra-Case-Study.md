@@ -1,9 +1,9 @@
----
+<!--
 title: 一次（失败的）Cassandra数据读取异常的排错
 date: 2017-09-06 14:12:54
 tags:
 - Cassandra
----
+-->
 前两天公司的某个数据服务出现了很多Server Internal Error和反馈时间过长的问题，特别是在load比较大的时候频繁出现。花了一些时间调查，有些还是值得记一笔的。
 
 数据服务本身Host在Windows Azure Service Fabric上，有多个实例，后台用的数据库是Cassandra，也是部署在Azure上的VM. 从ELK的日志来看，大量的Internal Error是因为"Cassandra timeout exception: Cassandra.ReadTimeoutException: Cassandra timeout during read query at consistency..."。显然, Cassandra在表示抗议了。
@@ -54,5 +54,3 @@ Good, 效率低的问题貌似有眉目了。接下来就是想办法看看咋�
 Timeout的问题重现了，但是原因是什么，为什么同样10次查询你在不同进程里就不出现Timoout Exception，同一个进程内部就出现？再次回到代码。原来在一个进程内部，所有的查询都是用了同一个Cassandra Session （单例），也就是所有的查询都会通过这一个长连接。在这个长链接中，如果某个查询的耗时过长（主要是数据传输的时间，会占据这个长连接），其他查询急不可耐就直接报告TimeOut了。
 
 这个问题解决起来相对比较棘手。一个思路是减少每次查询的数据量，保证单个查询能够较快完成，其他查询能较快得到响应。另外一个思路就是限制同时进行的查询的个数（同时测试，同时跑3个查询Timeout Exception的概率很低），或者使用一个队列对多有查询排序，顺序处理。使用多个Cassandra Session或许也可行，但是长时间保持多个长连接对Cassandra服务器可能是个负担。前面提到的减少数据传输量也肯定能加快查询时间，减少异常。买买买（更多的服务器和带宽）当然也会有所帮助，不过老板们的银子也是银子啊。前面提到的Cassandra服务器的改进的手段，比如改善PartitionKey和Clustering，让数据分布更均匀，更适合特定的查询；改善部署，增加带宽等等，对这个问题也会有所帮助。
-
-

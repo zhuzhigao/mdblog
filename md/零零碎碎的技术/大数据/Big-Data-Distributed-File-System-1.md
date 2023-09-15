@@ -1,11 +1,11 @@
----
+<!--
 title: 大数据日知录 - 分布式文件系统 - 1
 date: 2017-01-11 17:53:45
 tags:
 - Big Data
 - GFS
 - HDFS
----
+-->
 ## GFS
 特点：采用PC存储，大文件，大量追加写，顺序读为主。
 
@@ -47,5 +47,3 @@ HA方案：Hadoop 2.0提出了NameNode热备份Secondary NameNode. 需要随之�
 
 ### NameNode联盟
 单一NN扩展性，性能和隔离性差。Hadoop 2.0引入NameNode联盟。将一个大的命名空间切割成多个子命名空间，每个子空间由一个NN负责。多有DataNode被NN共享。
-
-

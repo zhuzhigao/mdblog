@@ -1,4 +1,4 @@
----
+<!--
 title: 机器学习小结
 date: 2017-05-27 09:00:13
 tags:
@@ -11,7 +11,7 @@ tags:
 - Support Vector Machine
 - Neutual Network
 - Regression
----
+-->
 # 机器学习
 公司需要做一个机器学习的活动，作为组织者之一参与了题目的测试，很有意思。也乘机开始学习一些机器学习的算法 - 机器学习是一个趋势，不仅仅是在互联网。讲道理这需要大学的很多数学与统计学的知识，可惜已经忘得差不多了。当年咋并不知道这么有用呢？- 对不起老师的有一个例证。跟着YouTube学习了一系列[教程](https://www.youtube.com/watch?v=kjhiXQfaFeo&list=PLO5e_-yXpYLARtW5NPHTFVYY-xpgwuNNH&index=1)，算是比较系统的了解了常用算法,总结一下,也简单复习一下。
 <!-- more -->

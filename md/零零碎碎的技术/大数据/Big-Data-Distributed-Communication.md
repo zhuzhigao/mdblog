@@ -1,4 +1,4 @@
----
+<!--
 title: 大数据日知录 - 分布式通讯
 date: 2017-01-05 15:32:49
 tags:
@@ -6,7 +6,7 @@ tags:
 - Distributed Communication
 - Kafka
 - RabbitMQ
----
+-->
 三种常用通信机制：
 - 序列化与远程过程调用
 - 消息队列

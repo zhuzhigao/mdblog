@@ -1,9 +1,9 @@
----
+<!--
 title: Try .NET Core
 date: 2016-12-02 10:49:37
 tags:
 - .NET Core
----
+-->
 了解.NET Core已经有一段时间了，间或的也用了不少次，在Windows上或Linux上。不过总是需要什么用什么，今天决定看看.NET Core的[官方tutorial](https://docs.microsoft.com/en-us/dotnet/articles/core/tutorials/). 
 
 <!-- more -->
@@ -13,4 +13,3 @@ tags:
 微软在工具开发商还是很有见地的，比如VSCode - 用了两天我就放弃了atom。相信将来在工具层面会对.NET Core有更好的支持。.NET Core有多好还说不出来，不过毕竟多了一种选择。
 
 BTW, 引用.NET Framework的dll貌似比较麻烦，还需要深入研究一下。
-

@@ -1,10 +1,10 @@
----
+<!--
 title: Define and Publish WebAPI using Swagger
 date: 2016-12-19 15:32:03
 tags:
 - WebAPI
 - Swagger
----
+-->
 Service registration/publish/documentation/discovery becomes a important step to support the MicroServices. One utility we can use is the Swagger which provides specification in defining the services in JSON, generate document/samples from it directly and make the API publishing and registration much earsier. 
 <!-- more -->
 Some sample.
@@ -58,5 +58,3 @@ This defines an API like below
 
 See the sepecification at [Here](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md).
 Try it out at [Here](http://editor.swagger.io/#/). Get the tutorial at [Here](https://help.apiary.io/api_101/swagger-tutorial/). 
-
-

@@ -1,4 +1,4 @@
----
+<!--
 title: 大数据日知录 - 批处理系统
 date: 2017-02-25 19:57:26
 tags:
@@ -6,7 +6,7 @@ tags:
 - MapReduce
 - Hadoop
 - DAG
----
+-->
 ++ Map-Reduce框架:
 Map-Reduce过程:
 - Data Preparation (Splitting)
@@ -36,8 +36,3 @@ A sample.
 - 物理机集群
 
 微软的Dryad是较早的DAG系统。有自己的DAG结构描述。Google的FlumeJava和Apache Tez也较为有名，底层使用改良的Map-Reduce框架.
-
-
-
-
-

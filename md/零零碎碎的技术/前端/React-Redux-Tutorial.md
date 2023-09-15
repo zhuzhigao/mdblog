@@ -1,11 +1,11 @@
----
+<!--
 title: React Redux Tutorial
 date: 2017-05-08 17:16:31
 tags:
 - Web
 - React
 - Redux
----
+-->
 
 作为AngularJS/Angular2用户，一直想了解一下React + Redux. 刚好看完了一个挺好的Training Session: [https://www.youtube.com/watch?v=MhkGQAoc7bc&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b](https://www.youtube.com/watch?v=MhkGQAoc7bc&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b)，就顺便记两句。
 <!-- more -->

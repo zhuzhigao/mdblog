@@ -1,11 +1,11 @@
----
+<!--
 title: 大数据日知录 - 交互式数据分析与数据仓库
 date: 2017-03-08 20:54:24
 tags:
 - Big Data
 - Data Warehouse
 - Hive
----
+-->
 交互式数据分析的几大类型：
 - Hive系. Sql-on-Hadoop.
 - Shark系, Spark上的数据仓库系统

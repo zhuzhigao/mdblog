@@ -1,9 +1,9 @@
----
+<!--
 title: C++
 date: 2016-11-19 20:11:07
 tags:
 - C++
----
+-->
 * [C++ Lambda Expression.docx](https://github.com/zhuzhigao/PersonalMaterials/raw/master/C++/C++%20Lambda%20Expression.docx)
 * [C++ Named Return Value.docx](https://github.com/zhuzhigao/PersonalMaterials/raw/master/C++/C++%20Named%20Return%20Value.docx)
 * [C++ Smart Pointers.docx](https://github.com/zhuzhigao/PersonalMaterials/raw/master/C++/C++%20Smart%20Pointers.docx)

@@ -1,10 +1,10 @@
----
+<!--
 title: 大数据日知录 - 列式数据库 - BigTable
 date: 2017-02-16 07:24:03
 tags:
 - Big Data
 - BigTable
----
+-->
 列式数据库兼具传统数据库与NoSQL的特点，在数据表达能力上强于KV数据库。
 - 分布式部署
 - TB级别数据支持
@@ -32,5 +32,3 @@ BigTable将相邻的行主键组成的若干个行数据作为存储单元，称
 Apache HBase可以认为是BigTable的开源版本。
 
 Ref: [http://www.jianshu.com/p/a42dbbdf9706](http://www.jianshu.com/p/a42dbbdf9706)
-
-
