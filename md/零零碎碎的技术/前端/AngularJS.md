@@ -6,6 +6,8 @@ tags:
 - Web
 - SPA
 -->
+### AngularJS
+Date: 2016-11-19 20:07:22
 * [AngularJS - Databinding.pdf](https://github.com/zhuzhigao/PersonalMaterials/raw/master/AngularJS/AngularJS%20-%20Databinding.pdf)
 * [AngularJS - watch.pdf](https://github.com/zhuzhigao/PersonalMaterials/raw/master/AngularJS/AngularJS%20-%20watch.pdf)
 * [Angularjs DI.pdf](https://github.com/zhuzhigao/PersonalMaterials/raw/master/AngularJS/Angularjs%20DI.pdf)

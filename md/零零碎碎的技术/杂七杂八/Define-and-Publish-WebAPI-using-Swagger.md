@@ -5,6 +5,8 @@ tags:
 - WebAPI
 - Swagger
 -->
+### Define and Publish WebAPI using Swagger
+Date: 2016-12-19 15:32:03
 Service registration/publish/documentation/discovery becomes a important step to support the MicroServices. One utility we can use is the Swagger which provides specification in defining the services in JSON, generate document/samples from it directly and make the API publishing and registration much earsier. 
 <!-- more -->
 Some sample.

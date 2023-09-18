@@ -6,6 +6,8 @@ tags:
 - Ubuntu
 - Shadowsocks
 -->
+### Azure Virtual Machine!
+Date: 2016-11-29 20:15:24
 昨天经同时提醒，发现Azure账户里每月有50$的余额，足够创一个虚拟机了，果断动手。
 
 Azure虚拟机的创建还是很简单的, 20多刀每月的配置看上去还是很丰盛的.

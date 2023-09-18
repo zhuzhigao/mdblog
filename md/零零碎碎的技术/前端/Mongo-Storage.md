@@ -4,6 +4,8 @@ date: 2017-08-09 15:18:16
 tags:
 - MongoDB
 -->
+### Mongo 存储结构
+Date: 2017-08-09 15:18:16
 网上一篇挺好的[MongoDB存储结构的介绍](http://www.mongoing.com/blog/file-storage)，摘录一些重点。从文章来看，不像Cassandra, Mongo的存储的数据不是有序的，以B树存储的索引对提升查询效率必不可少。
 
 ## 数据库文件类型

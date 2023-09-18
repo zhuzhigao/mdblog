@@ -5,6 +5,8 @@ tags:
 - Message Queue
 - RabbitMQ
 -->
+### RabbitMQ
+Date: 2016-12-16 13:19:19
 ## Basic
 - Sender opens connection, connection creates the channel, channel declares queue, and channel publishes message.
 - Receiver opens connection, connection creates the channel, creates consumer from channel, consume declares event handler, channel consumes message from queue.

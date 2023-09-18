@@ -6,6 +6,8 @@ tags:
 - Flex
 - JavaScript
 -->
+### Web General
+Date: 2016-11-19 20:19:35
 * [Flex.pdf](https://github.com/zhuzhigao/PersonalMaterials/raw/master/WebGeneral/Flex.pdf)
 * [Form Authentication.docx](https://github.com/zhuzhigao/PersonalMaterials/raw/master/WebGeneral/Form%20Authentication.docx)
 * [JavaScript.pdf](https://github.com/zhuzhigao/PersonalMaterials/raw/master/WebGeneral/JavaScript.pdf)

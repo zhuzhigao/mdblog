@@ -6,6 +6,8 @@ tags:
 - Architecture
 - Web
 -->
+### Angular2 Architecture
+Date: 2016-12-06 14:36:30
 
 ## Angular2 HL Picture
 ![image](https://angular.io/resources/images/devguide/architecture/overview2.png)
