@@ -9,6 +9,7 @@ tags:
 - IOC
 -->
 ### Architecture
+
 Date: 2016-11-19 20:19:25
 * [.NET 3.0 to Architects.docx](https://github.com/zhuzhigao/PersonalMaterials/raw/master/Architecture/.NET%203.0%20to%20Architects.docx)
 * [Architecture Patterns _ Styles.docx](https://github.com/zhuzhigao/PersonalMaterials/raw/master/Architecture/Architecture%20Patterns%20_%20Styles.docx)

@@ -9,6 +9,7 @@ tags:
 -->
 ### 大数据日知录 - 批处理系统
 Date: 2017-02-25 19:57:26
+
 ++ Map-Reduce框架:
 Map-Reduce过程:
 - Data Preparation (Splitting)
