@@ -4,6 +4,9 @@ date: 2017-09-06 14:12:54
 tags:
 - Cassandra
 -->
+### 一次（失败的）Cassandra数据读取异常的排错
+Date: 2017-09-06 14:12:54
+
 前两天公司的某个数据服务出现了很多Server Internal Error和反馈时间过长的问题，特别是在load比较大的时候频繁出现。花了一些时间调查，有些还是值得记一笔的。
 
 数据服务本身Host在Windows Azure Service Fabric上，有多个实例，后台用的数据库是Cassandra，也是部署在Azure上的VM. 从ELK的日志来看，大量的Internal Error是因为"Cassandra timeout exception: Cassandra.ReadTimeoutException: Cassandra timeout during read query at consistency..."。显然, Cassandra在表示抗议了。

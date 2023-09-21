@@ -6,6 +6,8 @@ tags:
 - Algorithm
 - Data Structure
 -->
+### 大数据日知录 - 算法与数据结构 - 2
+Date: 2016-12-23 13:18:05
 ## Merkle Hash Tree
 主要用来在海联不过数据下快速确定啥流量变化的数据内容，应用如比特币，BitTorrent等。
 ![image](http://images2015.cnblogs.com/blog/834896/201605/834896-20160527163537178-321412097.png)

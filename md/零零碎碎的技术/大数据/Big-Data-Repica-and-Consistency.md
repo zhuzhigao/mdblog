@@ -4,6 +4,8 @@ date: 2016-12-13 21:49:03
 tags:
 - Big Data
 -->
+### 大数据日知录 - 数据复制与一致性
+Date: 2016-12-13 21:49:03
 ## CAP
 Consistency, Availability, Partition Tolerance
 CAP三要素不可兼得。分布式环境中，分区P不可或许，所以通常在AP和CP之间进行选择，大多数互联网应用和NoSQL会选择AP，关系型数据库则为CA.

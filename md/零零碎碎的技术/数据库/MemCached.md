@@ -5,6 +5,9 @@ tags:
 - Redis
 - MemCached
 -->
+### Redis vs MemCached
+Date: 2017-02-14 14:00:43
+
 Quoted from [StackOverflow](http://stackoverflow.com/questions/10558465/memcached-vs-redis).
 
 As of today every major feature and strength memcached offers are now a subset of redis' features and strengths. Any use case you might use memcached for redis can solve equally well. They are both lightning fast as volatile caches. While that's all that memcached is its only the tip of the redis iceberg.

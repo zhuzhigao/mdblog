@@ -10,6 +10,9 @@ tags:
 - .NET
 - RESTful
 -->
+### Service
+Date: 2016-11-19 20:19:20
+
 * [Get right when doing microservices.pdf](https://github.com/zhuzhigao/PersonalMaterials/raw/master/Services/get%20right%20when%20doing%20microservices.pdf)
 * [How to Impl a Service.docx](https://github.com/zhuzhigao/PersonalMaterials/raw/master/Services/How%20to%20Impl%20a%20Service.docx)
 * [Microservice.pdf](https://github.com/zhuzhigao/PersonalMaterials/raw/master/Services/Microservice.pdf)
